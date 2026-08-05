@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pygiga"
+version = "0.1.0"
+description = "PyGiga AI agent framework."
+authors = [{ name = "PyGiga" }]
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.8"
+dependencies = [
+    "requests>=2.28.0",
+    "grpcio>=1.56.0",
+]
